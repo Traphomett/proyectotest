@@ -1,0 +1,36 @@
+
+<h2>Añadir auto</h2>
+
+    <%= form_with model: @carroo do |form| %>
+        <div>
+            <%= form.label :marca %>
+            <%= form.text_field :marca %>
+        </div>
+        
+        <div>
+            <%= form.label :modelo %>
+            <%= form.text_field :modelo %>
+        </div>
+
+        <div>
+            <%= form.label :año %>
+            <%= form.text_field :año %>
+        </div>
+
+        <div>
+            <%= form.label :tipo %>
+            <%= form.text_field :tipo %>
+        </div>
+
+        <div>
+            <%= form.label :precio %>
+            <%= form.number_field :precio %>
+        </div>
+
+        <div>
+            <%= form.label :estado %>
+            <%= form.text_field :estado %>
+        </div>
+        <%= form.submit %>
+
+    <% end %>

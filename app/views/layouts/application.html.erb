@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <style>
+    tr {border:10px; color:blue;}
+    th {border:10px; color:black;}
+  </style>
+    <title>Autos</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+  <%= render 'shared/hearder' %>
+    <%= yield %>
+  </body>
+</html>

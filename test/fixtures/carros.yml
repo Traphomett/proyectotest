@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+BMW:
+  marca: BMW
+  modelo: Sport
+  año: 2019
+  tipo: 
+  precio: 120000
+  estado: Nuevo
+
+Jeep:
+  marca: Jeep
+  modelo: Gran Cherooke
+  año: 2020
+  tipo: Pickup
+  precio: 22000
+  estado: Nuevo

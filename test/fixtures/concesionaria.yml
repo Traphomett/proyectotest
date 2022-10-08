@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+concesionarium1:
+  nombre: concesionaria 1
+  direccion: zacualtipan
+  telefono: 2233
+
+concesionarium2:
+  nombre: concesionaria 2
+  direccion: molango
+  telefono: 7744
+
+concesionarium3:
+  nombre: concesionaria 3
+  direccion: pachuca
+  telefono: 8876
+
+concesionarium4:
+  nombre: concesionaria 4
+  direccion: Mexico
+  telefono: 5556

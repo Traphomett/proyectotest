@@ -1,0 +1,55 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+BMW:
+  marca: BMW
+  modelo: My Sport
+  año: 2019
+  tipo: Deportivo
+  precio: 230000
+  estado: Nuevo
+  concesionaria: concesionarium1
+
+GMC:
+  marca: GMC
+  modelo: Sonoma
+  año: 1998
+  tipo: PickUp
+  precio: 55200
+  estado: Usada
+  concesionaria: concesionarium2
+
+Jeep:
+  marca: Jeep
+  modelo: Cherokee
+  año: 1995
+  tipo: PickUp
+  precio: 10200
+  estado: Usada
+  concesionaria: concesionarium3
+
+Tsuru:
+  marca: Tsuru
+  modelo: Tsuru V19
+  año: 2000
+  tipo: Normal
+  precio: 43000
+  estado: Nuevo
+  concesionaria: concesionarium4
+
+Jeep:
+  marca: Jeep
+  modelo: Cherokee
+  año: 1995
+  tipo: PickUp
+  precio: 10200
+  estado: Usada
+  concesionaria: concesionarium2  
+
+Tsuru:
+  marca: Tsuru
+  modelo: Tsuru V19
+  año: 2000
+  tipo: Normal
+  precio: 43000
+  estado: Nuevo
+  concesionaria: concesionarium1

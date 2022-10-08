@@ -1,0 +1,24 @@
+<%= link_to 'Eliminar Auto', products_path(@carro), data: {
+  turbo_method: :delete
+} 
+%>
+<table class="default" style= "border:10px;">
+
+  <caption></caption>
+  <tr>
+    <th scope="col">Marca</th>
+    <th>Modelo</th>
+    <th>Año</th>
+    <th>Tipo</th>
+    <th>Precio</th>
+    <th>Estado</th>
+  </tr>
+  <tr>
+    <th><%= @carro.marca %></th>
+    <td><%= @carro.modelo %></td>
+    <td><%= @carro.año %></td>
+    <td><%= @carro.tipo %></td>
+    <td>$<%= @carro.precio %></td>
+    <td><%= @carro.estado %></td>
+  </tr>
+</table>
