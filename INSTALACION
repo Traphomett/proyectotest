@@ -1,0 +1,24 @@
+Para correr correctamente el proyecto utilize una maquina virtual de ubuntu que instale desde CMD, pienso que es el mismo proceso para iniciarlo en un espacio adecuado
+Dentro de mi servidor local de Rails inicio el servicio con el comando "rails s" 
+Se tendra que mover al directorio del proyecto para correr el server: "cd proyectotest"
+Acto seguido el server dara una direccion local para el login la cual será: http://127.0.0.1:3000/sessions/new 
+
+Hay un usuario registrado en la DB:
+Username: pacoow
+Password: testme
+
+El login tiene seguridad ya que si ingresan un usuario erroneo o con caracteres especiales (#~$%&/) automaticamente renderizara nuevamente el formulario (Unicamente se puede iniciar sesion como admin)
+
+en dado caso que no funcionara el login adecuadamente con el usuario(al no estar registrado) sera la siguiente direccion local para vizualizar la prueba: http://127.0.0.1:3000/products
+
+Dentro del index hay un header que tiene los siguientes apartados: concesionaria - auto la cual tiene los formularios de cada una
+Concesionaria: http://127.0.0.1:3000/concesionaria
+Se pueden ingresar concesionarias
+Se pueden visualizar
+
+Auto: http://127.0.0.1:3000/autos
+Se pueden visualizar
+Se pueden agregar (actualmente no deja agregar ya que al momento de que hize la relacion entre la tabla Autos-Concesionaria no acepta la asociación, muestra el siguiente error:
+Rails no pudo encontrar un modelo válido para la asociación Concesionaria. Proporcione la opción :class_name en la declaración de asociación. Si ya se proporciona :class_name, asegúrese de que es una subclase ActiveRecord::Base.)
+
+Y por el momento es todo lo que realiza el test, gracias por su comprensión.
